@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio 2 - FDW</title>
+        <script>console.log("Mensaje en la Consola.");</script>
+    </head>
+    <body>
+        <h1>Demostración de Output en Javascript</h1>
+        <button onclick="alerta()">Presioname</button>
+        <p id="cambiar-texto"></p>
+        <button onclick="cambiarTexto()">Cambiar Texto</button>
+        <script>
+            function cambiarTexto(){
+                document.getElementById("cambiar-texto").innerHTML = "¡Texto actualizado con Javascript!";
+            }
+            function alerta(){
+                alert("Jesús Emmanuel Morfín Olmos");
+            }
+        </script>
+    </body>
+</html>
